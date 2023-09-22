@@ -14,9 +14,23 @@ const App = () => {
         <Subtitle>
           promoções
         </Subtitle>
-        <Container>
-          <SaleCard discount={"50"}></SaleCard>
-        </Container>
+        <div className="saleContainer">
+          <SaleCard
+          title={"League Of Legends"}
+          fullPrice={199.90}
+          discount={50}
+           />
+           <SaleCard
+                     title={"Dota 2"}
+                     fullPrice={199.90}
+                     discount={40}
+            />
+                       <SaleCard
+                     title={"Valorant"}
+                     fullPrice={199.90}
+                     discount={30}
+            />
+        </div>
       </Container>
     </div>
   );

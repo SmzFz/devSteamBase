@@ -9,6 +9,10 @@
     font-size: 12px;
     color: #FFF;
 
+    /* remover */
+    text-align: center;
+
+
 }
 .button:hover{
     background: #477d00;
