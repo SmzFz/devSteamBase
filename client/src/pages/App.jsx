@@ -1,3 +1,4 @@
+import GameCard from "../components/cards/gameCard/gameCard";
 import SaleCard from "../components/cards/saleCard/saleCard";
 import Container from "../components/container/container";
 import Subtitle from "../components/forms/subtitle/subtitle";
@@ -12,7 +13,7 @@ const App = () => {
 
       <Container>
         <Subtitle>
-          promoções
+          Promoções
         </Subtitle>
         <div className="saleContainer">
           <SaleCard
@@ -31,6 +32,14 @@ const App = () => {
                      discount={30}
             />
         </div>
+            <div className="gameSession"> 
+        <Subtitle> Outros Jogos </Subtitle>
+        <div className="gameContainer">
+          <GameCard></GameCard>
+        </div>
+
+            </div>
+       
       </Container>
     </div>
   );
