@@ -35,7 +35,11 @@ const App = () => {
             <div className="gameSession"> 
         <Subtitle> Outros Jogos </Subtitle>
         <div className="gameContainer">
-          <GameCard></GameCard>
+          <GameCard
+          title={"CSGO"}
+          info={"Ação, estratégia, multijogador"}
+          price={99.90}
+          >Counter Strike: Global Offensive</GameCard>
         </div>
 
             </div>
