@@ -1,10 +1,13 @@
+import CartOption from '../cartOption/cartOption'
 import Button from '../forms/button/button'
 import styles from './cartMenu.module.css'
 
 const CartMenu = () => {
   return (
     <div className={styles.menu} onClick={(e) => e.stopPropagation()}>
-      <div className={styles.options}></div>
+      <div className={styles.options}>
+        <CartOption/>
+      </div>
 
       <div className={styles.priceLine}> </div>
 <Button fullwidth>Finalizar Compra</Button>
