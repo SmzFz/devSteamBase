@@ -67,7 +67,38 @@ const App = () => {
           title={"CSGO"}
           info={"Ação, estratégia, multijogador"}
           price={99.90}
+          onAdd={() => handleAddProduct({
+            name: "Counter Strike: Global Offensive",
+            price: 199.99 - 199.99*0.3,
+            img: "CSGO",
+          })
+        }
+
           >Counter Strike: Global Offensive</GameCard>
+                    <GameCard
+          title={"rocket"}
+          info={"Ação, esportivo, multijogador"}
+          price={99.90}
+          onAdd={() => handleAddProduct({
+            name: "Rocket League",
+            price: 199.99 - 199.99*0.3,
+            img: "rocket",
+          })
+        }
+
+          >Rocket League</GameCard>
+                    <GameCard
+          title={"assassino"}
+          info={"Ação, estratégia, história"}
+          price={99.90}
+          onAdd={() => handleAddProduct({
+            name: "Assasin's Creed",
+            price: 199.99 - 199.99*0.3,
+            img: "rocket",
+          })
+        }
+
+          >Assasin's Creed</GameCard>
         </div>
 
             </div>
