@@ -94,7 +94,7 @@ const App = () => {
           onAdd={() => handleAddProduct({
             name: "Assasin's Creed",
             price: 199.99 - 199.99*0.3,
-            img: "rocket",
+            img: "assassino",
           })
         }
 
